@@ -40,8 +40,6 @@ public class depla : MonoBehaviour
         // Normaliser l'angle entre -1 et 1 en le divisant par la valeur maximale possible
         float normalizedAngle = Mathf.Clamp(angleBetween / (max_angle - min_angle), -1f, 1f);
 
-        Debug.Log("Angle: " + gameObject.name + " " + normalizedAngle);
-
         return normalizedAngle;
     }
 
@@ -72,8 +70,23 @@ public class depla : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * vitesse);
     }
 
+    public short getDir() {
+        if (transform.rotation.z > 0 && obj2.transform.rotation.z >= 0)
+            return (1);
+        else if (transform.rotation.z < 0 && obj2.transform.rotation.z <= 0)
+            return (2);
+        return (0);
+    }
+
     void Update()
     {
         getPar();
+        if (getDir() == 1)
+            Debug.Log("Right");
+        else if (getDir() == 2)
+            Debug.Log("Left");
+        else if (getDir() == 0) {
+            Debug.Log("Straight");
+        }
     }
 }
