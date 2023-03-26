@@ -51,6 +51,5 @@
         "ProjectSettings/":true,
         "temp/":true,
         "Temp/":true
-    },
-    "omnisharp.useModernNet": false
+    }
 }
