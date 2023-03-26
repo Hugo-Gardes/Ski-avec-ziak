@@ -23,5 +23,10 @@ public class video_menu_handler : MonoBehaviour
             ziak.SetActive(true);
             gameObject.SetActive(false);
         }
+        if (Input.GetKey(KeyCode.S)) {
+            Intro.Stop();
+        } else if (Input.GetKey(KeyCode.P)) {
+            Intro.Play();
+        }
     }
 }
