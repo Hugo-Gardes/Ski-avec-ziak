@@ -219,3 +219,7 @@ Received Import Request.
 Start importing Assets/Sans_titre.mp4 using Guid(8b4b6deb570e2bd45ba3a6fc6bf45abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316191b0b2981f0c56e197689ad0b0d8') in 0.001255 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

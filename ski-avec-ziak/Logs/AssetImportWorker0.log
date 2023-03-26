@@ -203,3 +203,952 @@ Received Import Request.
 Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(26ac5bdd7fcdb4c43bf806d7aecd3fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f1a88ad5dfcb04a8ae9b2f2e9e0cf8') in 0.115802 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1137ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 2075.
+Memory consumption went from 96.8 MB to 96.8 MB.
+Total: 3.677500 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.031300 ms MarkObjects: 3.492200 ms  DeleteObjects: 0.042300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 505.310588 seconds.
+  path: Assets/les bronzés font du ski.mp3
+  artifactKey: Guid(72dc3057344d31241b0e4d2f6a4ba098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/les bronzés font du ski.mp3 using Guid(72dc3057344d31241b0e4d2f6a4ba098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ed8b2286b5c785cf5225abd46ea0c46') in 0.172875 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(18964961de5f0a842b38d8a1d6983f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer.terrainlayer using Guid(18964961de5f0a842b38d8a1d6983f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9798fcab3711efcba43a980c6090ba80') in 0.090357 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e050d1cadb0594837d3ac75d828b93ec') in 0.003437 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Materials/Floor 2.mat
+  artifactKey: Guid(ea92d207446100144b68868b9074318c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Materials/Floor 2.mat using Guid(ea92d207446100144b68868b9074318c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b7d5e32e15866a181be20ab7e90000b') in 0.024415 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Materials/Floor 1.mat
+  artifactKey: Guid(2a646b4755c5f264dba85dc333cf54d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Materials/Floor 1.mat using Guid(2a646b4755c5f264dba85dc333cf54d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1baef8692a439c7233e249713101936c') in 0.005836 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c90eec1840ac34c62d55314a1d1e9d3') in 0.018328 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ziak.mp4
+  artifactKey: Guid(d1eef86be12a01343be306a1482d400d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ziak.mp4 using Guid(d1eef86be12a01343be306a1482d400d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b650cf6e5d5c92b412fc99ef40da7fb') in 0.010585 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Hedge 1.fbx
+  artifactKey: Guid(bffe474d70a5e7744b2deba0da94a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Hedge 1.fbx using Guid(bffe474d70a5e7744b2deba0da94a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc3297d591a348afd877b441fc015879') in 0.047006 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 13.fbx
+  artifactKey: Guid(f83c06207830a1d438a3c585a5d5ba1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 13.fbx using Guid(f83c06207830a1d438a3c585a5d5ba1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec77941af7eb50513f1762e34cd9ccd0') in 0.028601 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 8.fbx
+  artifactKey: Guid(82ea1707c0c9cf540b501f54133135ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 8.fbx using Guid(82ea1707c0c9cf540b501f54133135ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dafe31ece54e0485cf506a676ab9ac7') in 0.017847 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '641c59a1d8d3f44aae72271cc0d12303') in 0.005811 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Scenes/HUD.unity
+  artifactKey: Guid(f32cb9b1107a4ab48a24ff82d0e0bd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/HUD.unity using Guid(f32cb9b1107a4ab48a24ff82d0e0bd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5899776490256954d9bd13b1cbd7be7') in 0.004090 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/pict/Skis_v1_L3.123c521f0a3f-d4a4-4aad-bcf0-950bb3e4e78b/12321_skin_v1_diff.jpg
+  artifactKey: Guid(ddcfe77c25fbde248847d40c4fd94c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/pict/Skis_v1_L3.123c521f0a3f-d4a4-4aad-bcf0-950bb3e4e78b/12321_skin_v1_diff.jpg using Guid(ddcfe77c25fbde248847d40c4fd94c53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd98e3db152f57bdc55f588ec666f9e82') in 0.043007 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 11.fbx
+  artifactKey: Guid(b32d6a4eef47c524ea9778bb8b6109c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 11.fbx using Guid(b32d6a4eef47c524ea9778bb8b6109c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3747d06ee5ad2ec2d41772bde812066') in 0.016650 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 7.fbx
+  artifactKey: Guid(636e5d397017b52439bdcc726a921f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 7.fbx using Guid(636e5d397017b52439bdcc726a921f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '852e7401948028427261c189ca9ce8e5') in 0.018106 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 2.fbx
+  artifactKey: Guid(232e6aaee661287438043e59c3cedb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 2.fbx using Guid(232e6aaee661287438043e59c3cedb54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e56cb654b757ad89f845a3850155fb23') in 0.020499 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20da409f2da2648d871b01ecadceb71b') in 0.003784 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 4.fbx
+  artifactKey: Guid(32bc2c9ae46370946a34ec06ac1e3d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 4.fbx using Guid(32bc2c9ae46370946a34ec06ac1e3d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8957e8aed86c9cf0daef154be98ca9cf') in 0.024112 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 11.prefab
+  artifactKey: Guid(0f436f11e5f6a4746ad0ef93dc760583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 11.prefab using Guid(0f436f11e5f6a4746ad0ef93dc760583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2368daf20a9e66a08b862c626951c98') in 0.010625 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Tree Trunk 2.fbx
+  artifactKey: Guid(1795f1e77d87dde43aaec93c77413144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Tree Trunk 2.fbx using Guid(1795f1e77d87dde43aaec93c77413144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b76f5f59bddb577e14d80aee1497ea7') in 0.015505 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab
+  artifactKey: Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab using Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57f7767bc74ce826e6feb4383e87b135') in 0.011888 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 1.prefab
+  artifactKey: Guid(06c4d1032830f694f9a3f388ae0b401e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 1.prefab using Guid(06c4d1032830f694f9a3f388ae0b401e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '143ad327b9de5c7bb71cd297805dedf0') in 0.012408 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 16.prefab
+  artifactKey: Guid(fda1b03ba40107b42aa57c49305b41f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 16.prefab using Guid(fda1b03ba40107b42aa57c49305b41f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '562fe1eeb72a5903cb4f9c72775ed187') in 0.007614 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab
+  artifactKey: Guid(4901a59201491854c8893f398c2d0c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab using Guid(4901a59201491854c8893f398c2d0c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8730de97fac85ef8f788c3edcc2e0b28') in 0.007366 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 4.prefab
+  artifactKey: Guid(c040ab9b6f143dc419e9278a27bcad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 4.prefab using Guid(c040ab9b6f143dc419e9278a27bcad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f9fbe680da5ea898347427b18ae11ce') in 0.008975 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab
+  artifactKey: Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab using Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8d888b15946c02688027cb9c8b458b3') in 0.008717 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab
+  artifactKey: Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab using Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be411c895565524fcd7579f26a8d53a6') in 0.005168 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/scripts/HelloWorldManager.cs
+  artifactKey: Guid(f0d098a4d4041e7488ccddfbd756f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/HelloWorldManager.cs using Guid(f0d098a4d4041e7488ccddfbd756f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '421fd1427af3f66bbe30c4e7ee4930f7') in 0.005698 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c6c9913b1db687e67f0c229a612ddd') in 0.007292 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab
+  artifactKey: Guid(f5df276ca8db56049849b11899004d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab using Guid(f5df276ca8db56049849b11899004d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '674a1310c5d311df36af6d29d96b0769') in 0.009175 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Log 2.fbx
+  artifactKey: Guid(b24a735fa0b4d29438a0f63df2b8c483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Log 2.fbx using Guid(b24a735fa0b4d29438a0f63df2b8c483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7217f2705e2e1cf5d5baba899bbf413b') in 0.020297 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/prefab/pause 1.prefab
+  artifactKey: Guid(081136ba9d6e53f4ea61ee5041edd592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/prefab/pause 1.prefab using Guid(081136ba9d6e53f4ea61ee5041edd592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a596d1f361ef25a8bc5174e00ebe09d2') in 0.065835 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9b96f3c49d015f80abd89af41d3fb41') in 0.004001 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9d5234f0078bb9103906d2a6101d60e') in 0.008566 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(26ac5bdd7fcdb4c43bf806d7aecd3fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(26ac5bdd7fcdb4c43bf806d7aecd3fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd048e0fac7b640a550e7f2a0d662ece6') in 0.068434 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefab/volume.prefab
+  artifactKey: Guid(68ed8bec9c7021b4ea467772024d9bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/prefab/volume.prefab using Guid(68ed8bec9c7021b4ea467772024d9bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b21b45d7a599c202e24e2ed5e398c3cb') in 0.022342 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 3.fbx
+  artifactKey: Guid(9962c23c3397e974e8a177c63dd7a880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 3.fbx using Guid(9962c23c3397e974e8a177c63dd7a880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f88f23369ef4552ba169c72863c85dc') in 0.016476 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/scripts/Switch.cs
+  artifactKey: Guid(fd787d6dd0e083d4ba6bd4e003b32137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/Switch.cs using Guid(fd787d6dd0e083d4ba6bd4e003b32137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6af82f598200e866d46f32a420b3b08e') in 0.004773 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/scripts/main.cs
+  artifactKey: Guid(17d77e537950f15419aac512dfca0d6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/main.cs using Guid(17d77e537950f15419aac512dfca0d6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c8b5c48b4923b7ce3602998313fd724') in 0.005820 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '818679fb2be1a6388e2e733c12a7032a') in 0.003602 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/terrain/New Terrain.asset
+  artifactKey: Guid(78759f7240cdd7043bbb7453d0e66e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/terrain/New Terrain.asset using Guid(78759f7240cdd7043bbb7453d0e66e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) The tree tree 5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2358d017714197510a8cef6719441e3d') in 0.016762 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2ae91ddd732bfc9917aee8caf797572') in 0.007649 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab
+  artifactKey: Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab using Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4e4927692e1cd8bcef88e6c6e8aee61') in 0.007108 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/scripts/HUD.cs
+  artifactKey: Guid(c7fde5108d6d31345ac13dc8a1165214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/HUD.cs using Guid(c7fde5108d6d31345ac13dc8a1165214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cda7a9dd25cdd5fd918d5e976cfcf59d') in 0.003926 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 15.fbx
+  artifactKey: Guid(2dbbba970fc8ed04fa6287df22c72206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/tree 15.fbx using Guid(2dbbba970fc8ed04fa6287df22c72206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0d1fa214017c39037f3ce6bb1eb87d9') in 0.018510 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 2.prefab
+  artifactKey: Guid(6f46e1a4008d02f44b604a3be2a12441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 2.prefab using Guid(6f46e1a4008d02f44b604a3be2a12441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '068d7837267bb9f6ccd6cceb274c8fa2') in 0.007547 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab
+  artifactKey: Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab using Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cacf9659e129af54635dcd11b2e5dcce') in 0.007525 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 2.prefab
+  artifactKey: Guid(dcb7425e726bfd24fab770880e6c691a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 2.prefab using Guid(dcb7425e726bfd24fab770880e6c691a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '927ba83ca44ea37a26003273cc686c5b') in 0.007792 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 2.prefab
+  artifactKey: Guid(a4dcb682a9658ca478dfbacf96e80964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 2.prefab using Guid(a4dcb682a9658ca478dfbacf96e80964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e9d040710e20b1fa536bb252737106e') in 0.008286 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Tree Trunk 1.fbx
+  artifactKey: Guid(97533931636edf546b150b213c13c802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Tree Trunk 1.fbx using Guid(97533931636edf546b150b213c13c802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3aed848ff086f1684a0a99dbac98ff9c') in 0.018144 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab
+  artifactKey: Guid(74a548f02121cb54eb43cb42314531f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab using Guid(74a548f02121cb54eb43cb42314531f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '386c69211bd5b9bf8560da6799980b0b') in 0.011179 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/scripts/HelloWorldPlayer.cs
+  artifactKey: Guid(b0d1a721e8ca19e40b30b5f4e33d0305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/HelloWorldPlayer.cs using Guid(b0d1a721e8ca19e40b30b5f4e33d0305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a15b2d95edc2d0a6bac613f547762cb0') in 0.005250 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0ebb593d7c1dcde5d80e73577b66b24') in 0.007585 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab
+  artifactKey: Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab using Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06ba3179d4d1b6fe8414badef26e689f') in 0.009906 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Stones Material.mat
+  artifactKey: Guid(63c4740c474685640bf35727b0924306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Stones Material.mat using Guid(63c4740c474685640bf35727b0924306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f28e823c8a7bb15a924c8f60cbcd8ab0') in 0.047456 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Wall Blocks C Terrain Layer 15.terrainlayer
+  artifactKey: Guid(ad702d8024afe624db225f3fcf9a86a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Wall Blocks C Terrain Layer 15.terrainlayer using Guid(ad702d8024afe624db225f3fcf9a86a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4453de3d6a1344c8bc5b79b64989ded3') in 0.007199 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Wall Blocks C Material.mat
+  artifactKey: Guid(7fc1d9e65384cbe4e9372da2e2b02ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Wall Blocks C Material.mat using Guid(7fc1d9e65384cbe4e9372da2e2b02ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a4157759d3e8912031ccbceb63f3707') in 0.010136 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_AmbientOcclusion.png
+  artifactKey: Guid(726e90e726e3d254fa38dc6f5433e492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_AmbientOcclusion.png using Guid(726e90e726e3d254fa38dc6f5433e492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6996433ac25bde7eb9c7d83cbe62c7') in 0.023675 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Ice Material.mat
+  artifactKey: Guid(583e25484374bcd4cb0681083c9af7e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Ice Material.mat using Guid(583e25484374bcd4cb0681083c9af7e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f54befb419f1d3b3e14e4afbdd6133c') in 0.008677 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Dense Terrain Layer.terrainlayer
+  artifactKey: Guid(ac82e467c0f3ee3468c9fd017afa7a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Dense Terrain Layer.terrainlayer using Guid(ac82e467c0f3ee3468c9fd017afa7a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '701c340be21b485be7a573760f780542') in 0.041185 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Orange Wall Terrain Layer.terrainlayer
+  artifactKey: Guid(44d1dd28adab2b046b4ae4e125a72e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Orange Wall Terrain Layer.terrainlayer using Guid(44d1dd28adab2b046b4ae4e125a72e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec748db655529810f9fa5d29519557c1') in 0.004857 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Covered Road Terrain Layer.terrainlayer
+  artifactKey: Guid(a505ec84ffb4c3d44b754fd55fa6aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Covered Road Terrain Layer.terrainlayer using Guid(a505ec84ffb4c3d44b754fd55fa6aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b60d39f1315a73f5a00184b751129dfe') in 0.005400 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Blue Wall Material.mat
+  artifactKey: Guid(e311bf8b64943274eba05066c65c51c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Blue Wall Material.mat using Guid(e311bf8b64943274eba05066c65c51c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c94b56a7ff9c7272146b80064749d77') in 0.009247 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Stones Terrain Layer.terrainlayer
+  artifactKey: Guid(3d3537f4bf155ee42b698821a3064de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Stones Terrain Layer.terrainlayer using Guid(3d3537f4bf155ee42b698821a3064de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bd99d24538f6e83a7afbe07d67a2c4f') in 0.003594 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Bush/Snow Bush_Roughness.png
+  artifactKey: Guid(e756e87b963c9e5479e59598d01f6cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Bush/Snow Bush_Roughness.png using Guid(e756e87b963c9e5479e59598d01f6cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6fe5f0cde20496b1a9f46eaa942b0df') in 0.020582 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Path Material.mat
+  artifactKey: Guid(735b4e16944c7734f8e53e542ecf85e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Path Material.mat using Guid(735b4e16944c7734f8e53e542ecf85e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd36f528384bdb28671862731717d78ea') in 0.005522 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Wall Blocks B Material.mat
+  artifactKey: Guid(4691f3418c6cd904a8078ca8f0ce4f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Wall Blocks B Material.mat using Guid(4691f3418c6cd904a8078ca8f0ce4f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a88bbe60ca6936fb939051c7ab97dff3') in 0.004835 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_Normal.png
+  artifactKey: Guid(fb3fb90043a499d49b501ec294971fa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_Normal.png using Guid(fb3fb90043a499d49b501ec294971fa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d6ff24add471218d3191723dabed7b') in 0.045069 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab
+  artifactKey: Guid(c00575bbb9efcd740b13a035ce795a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab using Guid(c00575bbb9efcd740b13a035ce795a13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b462d24c124983a104b6847fcb76c7e0') in 0.008951 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Path Terrain Layer.terrainlayer
+  artifactKey: Guid(9ba166fa64ab3ec4fbd6e55cf202a82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Snow Path Terrain Layer.terrainlayer using Guid(9ba166fa64ab3ec4fbd6e55cf202a82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a7de317db8fd26372b360b4c8abe1e0') in 0.005044 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab
+  artifactKey: Guid(787481964fc05da4684124e8aaa924ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab using Guid(787481964fc05da4684124e8aaa924ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da2788fc2c6eec1e7a568c7708eaff90') in 0.008061 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Blue Material.mat
+  artifactKey: Guid(2f260f5ca0a954143b16e67da4faca0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Blue Material.mat using Guid(2f260f5ca0a954143b16e67da4faca0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01ca7c7532a7f38141c092317d9bb10e') in 0.007016 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_Height.png
+  artifactKey: Guid(a5ae919716dd8b74aa08ec24b95fd0d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Dense/Snow Dense_Height.png using Guid(a5ae919716dd8b74aa08ec24b95fd0d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20baf8b86177244a363590bf8162a5f8') in 0.021007 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cd6a71b1e35447e53d975786aa9ef02') in 0.035203 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e2a1b0b5360664374ef2c6faf7a988d') in 0.008420 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80ce777531caf42be1a2325c44b94741') in 0.029489 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Blue Wall Terrain Layer.terrainlayer
+  artifactKey: Guid(1272047c38a0cd14b9138358b0419d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Blue Wall Terrain Layer.terrainlayer using Guid(1272047c38a0cd14b9138358b0419d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93659fcccacb99b57770b1ad8737294f') in 0.004835 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Bush/Snow Bush_Normal.png
+  artifactKey: Guid(91aa67dc1732372439f64857c3127a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Textures/Snow/Snow Bush/Snow Bush_Normal.png using Guid(91aa67dc1732372439f64857c3127a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f7aee82698f23f02ec2a576fb2241b7') in 0.045315 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 2.fbx
+  artifactKey: Guid(937039ee4c2afba40b7f60a1296979ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 2.fbx using Guid(937039ee4c2afba40b7f60a1296979ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c1fa5f44a5d783aacad56a60e039ab8') in 0.018456 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab
+  artifactKey: Guid(5e71f9539db1ae246a25939dafb13650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab using Guid(5e71f9539db1ae246a25939dafb13650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27f53e7a139fbf1da806e7f35c6b3cf5') in 0.014623 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Pebbles Material.mat
+  artifactKey: Guid(144b123fc2ffb4a42906d2d165e413f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Pebbles Material.mat using Guid(144b123fc2ffb4a42906d2d165e413f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cba226732ba0228299d281d20073100c') in 0.009701 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Wall Blocks A Terrain Layer 16.terrainlayer
+  artifactKey: Guid(69cd19b80f4bac2499bf12428627dab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Terrain Layer/Wall Blocks A Terrain Layer 16.terrainlayer using Guid(69cd19b80f4bac2499bf12428627dab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5891369f9a3969dc46d94923525c6a72') in 0.004977 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab
+  artifactKey: Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab using Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f10e6b2593927e2e1c582decc37f199') in 0.012002 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/package.json
+  artifactKey: Guid(82a203c50bb0d4c4b947ebc5db25f579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/package.json using Guid(82a203c50bb0d4c4b947ebc5db25f579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a34c8488f26ca31bb4465afb86b5ad1') in 0.040865 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab
+  artifactKey: Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab using Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d41880c77c210b26b0ab269eeab7089') in 0.009507 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a024a04772299a84735421e46a9ec90') in 0.010089 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 1.fbx
+  artifactKey: Guid(d3b48054d183a8b41a37b78316298e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 1.fbx using Guid(d3b48054d183a8b41a37b78316298e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58c9b032d748e7c852c57dc0ef406cca') in 0.026802 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 2.fbx
+  artifactKey: Guid(aab7f31e374a03d44923a155620b8f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 2.fbx using Guid(aab7f31e374a03d44923a155620b8f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb7edb96b01d16e9f2b67184c3dabb7b') in 0.019936 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dac4a729f080e647b9099e29863def05') in 0.010011 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Bush Material.mat
+  artifactKey: Guid(9aa5730945525c546859bb97ffb2b6ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/LaFinca/Midgard Textures/Xmas/Materials/Snow Bush Material.mat using Guid(9aa5730945525c546859bb97ffb2b6ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '024b25c7bcc18037c9783c1b0f71e86b') in 0.075427 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd187ada48f25750ed67382520e8fc88') in 0.009449 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/scripts/PauseMenu.cs
+  artifactKey: Guid(7c3194b568cf40444abfb5dd3ae400ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/PauseMenu.cs using Guid(7c3194b568cf40444abfb5dd3ae400ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4c0078d5ee72a324f6694841afff6c0') in 0.007246 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 3.prefab
+  artifactKey: Guid(d6df19b610a7ca0449844e601b39a6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 3.prefab using Guid(d6df19b610a7ca0449844e601b39a6d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8d845ed5dc5dbd83755c579d54192d8') in 0.007118 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab
+  artifactKey: Guid(535f7485ff0b12241827da63c536c0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab using Guid(535f7485ff0b12241827da63c536c0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '953f2b622a6665f7cf5dad4f65a7770a') in 0.007691 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background2.prefab
+  artifactKey: Guid(b79bb06b38877774f9676af4d52e41f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background2.prefab using Guid(b79bb06b38877774f9676af4d52e41f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e85184cb6abfbc6dbcb72d5fd4177a50') in 0.005458 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(526ecf5ac6b60a34f80c917fc22435f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(526ecf5ac6b60a34f80c917fc22435f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4499866fdb36f0df3a92732bcd4b658') in 0.047910 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -43,7 +43,6 @@ public class depla : MonoBehaviour
         return normalizedAngle;
     }
 
-
     void FixedUpdate()
     {
         if (Input.GetKey(inputs[0]))
