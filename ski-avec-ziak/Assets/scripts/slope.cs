@@ -6,25 +6,40 @@ public class SlopeMovement : MonoBehaviour
     public depla depal;
     public float x = 3;
     public int z = 2;
+    public global glob;
+    private float x_base = 0f;
+
+    private void Start()
+    {
+        if (glob == null)
+        {
+            glob = GameObject.Find("Global").GetComponent<global>();
+        }
+        x_base = x;
+    }
 
     public void Slide(int dir)
     {
-        Vector3 pos = slope.transform.position;
-        Debug.Log(pos);
-
         if (dir == 1)
-            pos.x -= z;
+            slope.transform.Translate(Vector3.right * -z * Time.deltaTime);
         if (dir == 2)
-            pos.x += z;
-        pos.z -= x;
-
-        Debug.Log(pos);
-
-        slope.transform.position = pos;
+            slope.transform.Translate(Vector3.right * z * Time.deltaTime);
+        slope.transform.Translate(Vector3.back * x * Time.deltaTime);
     }
 
-    public void Update()
+    public void upSpeed()
     {
+        float par = depal.getPar();
+        float p = 1f - par;
+
+        x = x_base * p;
+    }
+
+    public void FixedUpdate()
+    {
+        if (!glob.is_run)
+            return;
+        upSpeed();
         Slide(depal.getDir());
     }
 }

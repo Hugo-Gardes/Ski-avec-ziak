@@ -8,6 +8,7 @@ public class depla : MonoBehaviour
     public KeyCode[] inputs;
     public float max_angle = 45f;
     public float min_angle = -45f;
+    private global glob;
     private float deplacementLateral = 0f;
     GameObject obj2;
 
@@ -24,6 +25,10 @@ public class depla : MonoBehaviour
         if (obj2 == null)
         {
             Debug.LogError("obj2 is null");
+        }
+        if (glob == null)
+        {
+            glob = GameObject.Find("Global").GetComponent<global>();
         }
     }
 
@@ -45,6 +50,8 @@ public class depla : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!glob.is_run)
+            return;
         if (Input.GetKey(inputs[0]))
         {
             deplacementLateral = -vitesse;
@@ -79,6 +86,8 @@ public class depla : MonoBehaviour
 
     void Update()
     {
+        if (!glob.is_run)
+            return;
         getPar();
         if (getDir() == 1)
             Debug.Log("Right");
