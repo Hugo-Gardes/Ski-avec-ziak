@@ -1,3 +1,6 @@
-Base path: 'D:/unity/Nouveau dossier/2023.1.0b9/Editor/Data', plugins path 'D:/unity/Nouveau dossier/2023.1.0b9/Editor/Data/PlaybackEngines'
+Base path: '/home/ilario/Unity/Hub/Editor/2023.1.0b9/Editor/Data', plugins path '/home/ilario/Unity/Hub/Editor/2023.1.0b9/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process

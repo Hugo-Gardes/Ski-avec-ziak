@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571343, b: 0.30692208, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -839,6 +839,7 @@ GameObject:
   - component: {fileID: 1105794231}
   - component: {fileID: 1105794230}
   - component: {fileID: 1105794229}
+  - component: {fileID: 1105794232}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -919,6 +920,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1105794232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105794228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4fbb61311593eedadb7ab16d35a909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slope: {fileID: 1105794230}
+  depal: {fileID: 1856910338}
+  x: 3
+  z: 2
 --- !u!1 &1856849012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1064,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1856910338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5687369503650604464, guid: 7177b0bf71fd6c44d8c57d744a270ea6, type: 3}
+  m_PrefabInstance: {fileID: 1985306807}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae3969f8a7122e4f8db66d843eb4ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922406993
 GameObject:
   m_ObjectHideFlags: 0

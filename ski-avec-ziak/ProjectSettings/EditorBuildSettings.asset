@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/testHugo.unity
-    guid: 22dd42dfc861c6d459efc7010ee39e0d
+    path: Assets/Map.unity
+    guid: 59f5320baf17c3849b616d84e81df851
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
