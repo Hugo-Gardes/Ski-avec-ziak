@@ -9,10 +9,11 @@ public class HUD : MonoBehaviour
     public TMP_Text speedtext;
     public TMP_Text degres;
     public TMP_Text timetext;
+    public TMP_Text endtime;
     private float speed;
     private float leftski;
     private float rightski;
-    private float time;
+    public float time;
     public bool timerActive = false;
     public global glob;
     public depla depal;
@@ -25,10 +26,12 @@ public class HUD : MonoBehaviour
             glob = GameObject.Find("Global").GetComponent<global>();
         }
     }
+
     void FixedUpdate()
     {
-        if (!glob.is_run)
+        if (!glob.is_run) {
             return;
+        }
         if (timerActive) {
             time += Time.deltaTime;
             timetext.text = "Time: " + time.ToString("F3");

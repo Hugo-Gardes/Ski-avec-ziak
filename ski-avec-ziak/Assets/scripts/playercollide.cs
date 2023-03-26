@@ -38,9 +38,9 @@ public class playercollide : MonoBehaviour
             is_ok = true;
             return;
         }
-        // Debug.Log("Trigger, " + other.gameObject.tag);
-        // Debug.Log("Death");
-        // death.SetActive(true);
-        // glob.is_run = false;
+        Debug.Log("Trigger, " + other.gameObject.tag);
+        Debug.Log("Death");
+        death.SetActive(true);
+        glob.is_run = false;
     }
 }
